@@ -1,15 +1,82 @@
- <!DOCTYPE html>
- 
-<html>
+<!DOCTYPE html>
+
+<html lang="en">
 
 <head>
 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
 <title>Fujifilm X-Pro2 Recipes</title>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
 <style>
-img {
-display: inline-block;
-float: left;
+body { padding: 10px; }
+#recipe {
+	border: 2px solid #fff;
+	display: block;
+	float: left;
+	font-family: "Figtree", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 14px;
+	margin: 10px;
+}
+
+.recipe_title {
+	border: 2px solid #fff;
+	color: #fff;
+	display: inline-block;
+	float: left;
+	font-weight: 700;
+	font-size: 24px;
+	padding: 6px 8px;
+	width: 280px;
+}
+
+.color_bw			{ background-color: #131313; }
+.color_provia		{ background-color: #324bc8; }
+.color_astia		{ background-color: #a4915a; }
+.color_velvia		{ background-color: #50c750; }
+.color_proneghi		{ background-color: #ab1d27; }
+.color_pronegstd	{ background-color: #ab1d27; }
+.color_chrome		{ background-color: #e6b33e; }
+
+.param, .setting {
+	display: inline-block;
+	float: left;
+	padding: 6px 8px;
+	width: 120px;
+}
+
+.param {
+	background-color: #dfdfdf;
+	border: 2px solid #fff;
+	clear: left;
+}
+
+.setting {
+	border: 2px solid #fff;
+}
+
+.param_main, .setting_main {
+	border-bottom: 0;
+}
+
+.param_sub {
+	border-top: 0;
+	text-align: right;
+}
+
+.setting_sub {
+	border-top: 0;
 }
 </style>
 
@@ -19,13 +86,146 @@ float: left;
 
 
 
-<img src="https://raw.githubusercontent.com/Rekonin/rekonin.github.io/refs/heads/main/B%26W%20Street.jpg" width="370" height="427" />
-<img src="https://raw.githubusercontent.com/Rekonin/rekonin.github.io/refs/heads/main/Color%20Day.jpg" width="370" height="427" />
-<img src="https://raw.githubusercontent.com/Rekonin/rekonin.github.io/refs/heads/main/Color%20Night.jpg" width="370" height="427" />
-<img src="https://raw.githubusercontent.com/Rekonin/rekonin.github.io/refs/heads/main/B%26W%20Provoke.jpg" width="370" height="427" style="clear: left;" />
-<img src="https://raw.githubusercontent.com/Rekonin/rekonin.github.io/refs/heads/main/Color%20Drink.jpg" width="370" height="427" />
-<img src="https://raw.githubusercontent.com/Rekonin/rekonin.github.io/refs/heads/main/Color%20Soften.jpg" width="370" height="427" />
-<img src="https://raw.githubusercontent.com/Rekonin/rekonin.github.io/refs/heads/main/Color%20Pastel.jpg" width="370" height="427" />
+<div id="recipe">
+<div class="recipe_title color_bw">B&amp;W Street</div>
+<div class="param">Dynamic Range</div>				<div class="setting">DR200</div>
+<div class="param">Film Sim</div>					<div class="setting">Monochrome</div>
+<div class="param">Grain Effect</div>				<div class="setting">Weak</div>
+<div class="param param_main">White Balance</div>	<div class="setting setting_main">Shade</div>
+<div class="param param_sub">WB Shift</div>			<div class="setting setting_sub">R -6, B -3</div>
+<div class="param">Highlight Tone</div>				<div class="setting">1</div>
+<div class="param">Shadow Tone</div>				<div class="setting">-1</div>
+<div class="param">Color</div>						<div class="setting">0</div>
+<div class="param">Sharpness</div>					<div class="setting">0</div>
+<div class="param">Noise Reduction</div>			<div class="setting">-4</div>
+
+<div class="param param_main">ISO</div>				<div class="setting setting_main">A-1600</div>
+<div class="param param_sub">Min SS</div>			<div class="setting setting_sub">1/400</div>
+<div class="param">Exposure Comp</div>				<div class="setting">-0.6</div>
+</div>
+
+
+
+<div id="recipe">
+<div class="recipe_title color_bw">B&amp;W Provoke</div>
+<div class="param">Dynamic Range</div>				<div class="setting">DR100</div>
+<div class="param">Film Sim</div>					<div class="setting">Acros+R</div>
+<div class="param">Grain Effect</div>				<div class="setting">Strong</div>
+<div class="param param_main">White Balance</div>	<div class="setting setting_main">Underwater</div>
+<div class="param param_sub">WB Shift</div>			<div class="setting setting_sub">R 9, B 5</div>
+<div class="param">Highlight Tone</div>				<div class="setting">4</div>
+<div class="param">Shadow Tone</div>				<div class="setting">3</div>
+<div class="param">Color</div>						<div class="setting">0</div>
+<div class="param">Sharpness</div>					<div class="setting">-3</div>
+<div class="param">Noise Reduction</div>			<div class="setting">-4</div>
+
+<div class="param param_main">ISO</div>				<div class="setting setting_main">1600-12800</div>
+<div class="param param_sub">Min SS</div>			<div class="setting setting_sub">1/60</div>
+<div class="param">Exposure Comp</div>				<div class="setting">-1.3 to +0.6</div>
+</div>
+
+
+
+<div id="recipe">
+<div class="recipe_title color_provia">Color Day</div>
+<div class="param">Dynamic Range</div>				<div class="setting">DR200</div>
+<div class="param">Film Sim</div>					<div class="setting">Provia</div>
+<div class="param">Grain Effect</div>				<div class="setting">Weak</div>
+<div class="param param_main">White Balance</div>	<div class="setting setting_main">Fluorescent-1</div>
+<div class="param param_sub">WB Shift</div>			<div class="setting setting_sub">R -3, B 6</div>
+<div class="param">Highlight Tone</div>				<div class="setting">0</div>
+<div class="param">Shadow Tone</div>				<div class="setting">-1</div>
+<div class="param">Color</div>						<div class="setting">1</div>
+<div class="param">Sharpness</div>					<div class="setting">0</div>
+<div class="param">Noise Reduction</div>			<div class="setting">-4</div>
+
+<div class="param param_main">ISO</div>				<div class="setting setting_main">A-1600</div>
+<div class="param param_sub">Min SS</div>			<div class="setting setting_sub">400</div>
+<div class="param">Exposure Comp</div>				<div class="setting">-0.6</div>
+</div>
+
+
+
+<div id="recipe">
+<div class="recipe_title color_provia">Color Night</div>
+<div class="param">Dynamic Range</div>				<div class="setting">DR400</div>
+<div class="param">Film Sim</div>					<div class="setting">Provia</div>
+<div class="param">Grain Effect</div>				<div class="setting">Weak</div>
+<div class="param param_main">White Balance</div>	<div class="setting setting_main">Fluorescent-2</div>
+<div class="param param_sub">WB Shift</div>			<div class="setting setting_sub">R -5, B 9</div>
+<div class="param">Highlight Tone</div>				<div class="setting">0</div>
+<div class="param">Shadow Tone</div>				<div class="setting">-1</div>
+<div class="param">Color</div>						<div class="setting">1</div>
+<div class="param">Sharpness</div>					<div class="setting">0</div>
+<div class="param">Noise Reduction</div>			<div class="setting">-4</div>
+
+<div class="param param_main">ISO</div>				<div class="setting setting_main">A-6400</div>
+<div class="param param_sub">Min SS</div>			<div class="setting setting_sub">250</div>
+<div class="param">Exposure Comp</div>				<div class="setting">-1.3</div>
+</div>
+
+
+
+<div id="recipe">
+<div class="recipe_title color_chrome">Drink</div>
+<div class="param">Dynamic Range</div>				<div class="setting">DR400</div>
+<div class="param">Film Sim</div>					<div class="setting">Classic Chrome</div>
+<div class="param">Grain Effect</div>				<div class="setting">Strong</div>
+<div class="param param_main">White Balance</div>	<div class="setting setting_main">Daylight</div>
+<div class="param param_sub">WB Shift</div>			<div class="setting setting_sub">R -1, B 2</div>
+<div class="param">Highlight Tone</div>				<div class="setting">-2</div>
+<div class="param">Shadow Tone</div>				<div class="setting">-2</div>
+<div class="param">Color</div>						<div class="setting">1</div>
+<div class="param">Sharpness</div>					<div class="setting">0</div>
+<div class="param">Noise Reduction</div>			<div class="setting">-4</div>
+
+<div class="param param_main">ISO</div>				<div class="setting setting_main">A-1600</div>
+<div class="param param_sub">Min SS</div>			<div class="setting setting_sub">400</div>
+<div class="param">Exposure Comp</div>				<div class="setting">-0.6</div>
+</div>
+
+
+
+<div id="recipe">
+<div class="recipe_title color_astia">Soften</div>
+<div class="param">Dynamic Range</div>				<div class="setting">DR200</div>
+<div class="param">Film Sim</div>					<div class="setting">Astia</div>
+<div class="param">Grain Effect</div>				<div class="setting">Weak</div>
+<div class="param param_main">White Balance</div>	<div class="setting setting_main">Fluorescent-3</div>
+<div class="param param_sub">WB Shift</div>			<div class="setting setting_sub">R -2, B -5</div>
+<div class="param">Highlight Tone</div>				<div class="setting">-1</div>
+<div class="param">Shadow Tone</div>				<div class="setting">-2</div>
+<div class="param">Color</div>						<div class="setting">-3</div>
+<div class="param">Sharpness</div>					<div class="setting">0</div>
+<div class="param">Noise Reduction</div>			<div class="setting">-4</div>
+
+<div class="param param_main">ISO</div>				<div class="setting setting_main">A-1600</div>
+<div class="param param_sub">Min SS</div>			<div class="setting setting_sub">400</div>
+<div class="param">Exposure Comp</div>				<div class="setting">-0.6</div>
+</div>
+
+
+
+<div id="recipe">
+<div class="recipe_title color_velvia">Pastel</div>
+<div class="param">Dynamic Range</div>				<div class="setting">Auto</div>
+<div class="param">Film Sim</div>					<div class="setting">Velvia</div>
+<div class="param">Grain Effect</div>				<div class="setting">Weak</div>
+<div class="param param_main">White Balance</div>	<div class="setting setting_main">Incandescent</div>
+<div class="param param_sub">WB Shift</div>			<div class="setting setting_sub">R 7, B -8</div>
+<div class="param">Highlight Tone</div>				<div class="setting">0</div>
+<div class="param">Shadow Tone</div>				<div class="setting">-1</div>
+<div class="param">Color</div>						<div class="setting">-4</div>
+<div class="param">Sharpness</div>					<div class="setting">0</div>
+<div class="param">Noise Reduction</div>			<div class="setting">-4</div>
+
+<div class="param param_main">ISO</div>				<div class="setting setting_main">A-1600</div>
+<div class="param param_sub">Min SS</div>			<div class="setting setting_sub">400</div>
+<div class="param">Exposure Comp</div>				<div class="setting">-0.6</div>
+</div>
+
+<script src="scripts.js"></script>
+
 
 
 </body>
