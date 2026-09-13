@@ -46,3 +46,62 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body { padding: 10px; }
+
+#recipe {
+	border: 2px solid #fff;
+	display: block;
+	float: left;
+	font-family: "Figtree", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 14px;
+	margin: 10px;
+}
+
+.recipe_title {
+	border: 2px solid #fff;
+	color: #fff;
+	display: inline-block;
+	float: left;
+	font-weight: 700;
+	font-size: 24px;
+	padding: 6px 8px;
+	width: 280px;
+}
+
+.color_bw			{ background-color: #131313; }
+.color_provia		{ background-color: #324bc8; }
+.color_astia		{ background-color: #a4915a; }
+.color_velvia		{ background-color: #50c750; }
+.color_proneghi		{ background-color: #ab1d27; }
+.color_pronegstd	{ background-color: #ab1d27; }
+.color_chrome		{ background-color: #e6b33e; }
+
+.param, .setting {
+	display: inline-block;
+	float: left;
+	padding: 6px 8px;
+	width: 120px;
+}
+
+.param {
+	background-color: #dfdfdf;
+	border: 2px solid #fff;
+	clear: left;
+}
+
+.setting {
+	border: 2px solid #fff;
+	color: #6c6c6c;
+}
+
+.param p, .setting p { padding-top: 6px; }
+
+.param p { text-align: right; }
+
+.bw_color {
+	color: #d3d3d3;
+}
